@@ -19,3 +19,6 @@ Darky 42!
   1. Copyright links to a page
   2. page URL is flag
 
+# 4
+  1. Inspect element > Application > Cookies
+  2. I_am_admin cookie is the flag
