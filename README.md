@@ -22,3 +22,8 @@ Darky 42!
 # 4
   1. Inspect element > Application > Cookies
   2. I_am_admin cookie is the flag
+
+# 5
+  1. In feedback page
+  2. xss attack
+  3. <script>alert('XSS!')</script>
