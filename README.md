@@ -7,6 +7,7 @@ Darky 42!
   2. Email is in hidden html
   3. edit email to anything
   4. get flag
+  5. Flag = 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
 
 # 2 - ?
   1. WGET 10.11.249.65
@@ -29,3 +30,4 @@ Darky 42!
   1. In feedback page
   2. xss attack
   3. <script>alert('XSS!')</script>
+  4. Flag = 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
