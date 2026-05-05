@@ -33,7 +33,8 @@ Darky 42!
   4. Flag = 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
 
   #6 .hidden
-  ///
+  1. Execute this script in console to find all README in .hidden recursively
+  ```
   async function crawl(url, depth=0) {
   const res = await fetch(url);
   const html = await res.text();
@@ -62,10 +63,10 @@ Darky 42!
 }
 
 crawl("http://10.11.249.65/.hidden/");
-///
-
-Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "pending"[[PromiseResult]]: undefined
-
+```
+  2. Output:
+```
 VM147:17 🚩 FLAG FOUND: http://10.11.249.65/.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README
 VM147:18 Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c39543497d4466
-
+```
+  3. Flag = d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c39543497d4466
