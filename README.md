@@ -9,12 +9,16 @@ Darky 42!
   4. get flag
   5. Flag = 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
 
-# 2 - ?
+# 2 - Admin login
   1. WGET 10.11.249.65
   2. Read robots.txt
   3. see endpoint /whatever
   4. access 10.11.249.65/whatever
   5. download file and see root:password (root:437394baff5aa33daa618be47b75cb49)
+  6. http://10.11.249.65/admin/
+  7. decrypt 437394baff5aa33daa618be47b75cb49 -> qwerty123@
+  8. username -> root, password -> qwerty123@
+  9. flag = d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 
 # 3 - ?
   1. Copyright links to a page
