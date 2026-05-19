@@ -16,7 +16,7 @@ Darky 42!
   4. access 10.11.249.65/whatever
   5. download file and see root:password (root:437394baff5aa33daa618be47b75cb49)
   6. http://10.11.249.65/admin/
-  7. decrypt 437394baff5aa33daa618be47b75cb49 -> qwerty123@
+  7. decrypt (md5) 437394baff5aa33daa618be47b75cb49 -> qwerty123@
   8. username -> root, password -> qwerty123@
   9. flag = d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 
