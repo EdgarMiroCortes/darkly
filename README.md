@@ -14,7 +14,7 @@ Darky 42!
   2. Read robots.txt
   3. see endpoint /whatever
   4. access 10.11.249.65/whatever
-  5. download file and see root:password
+  5. download file and see root:password (root:437394baff5aa33daa618be47b75cb49)
 
 # 3 - ?
   1. Copyright links to a page
