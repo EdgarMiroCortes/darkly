@@ -86,3 +86,9 @@ VM147:18 Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693
   1. Social media icon links to http://10.11.249.72/index.php?page=redirect&site=instagram
   2. Try http://10.11.249.72/index.php?page=redirect&site=flag
   3. Flag = b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3
+
+# 10. Survey voting
+  1. In survey page, inspect element
+  2. Select one of the selectables to give points, change value to 10000
+  3. Give those points
+  4. Flag = 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa
